@@ -1,0 +1,315 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	font:15px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	background-color:#f4f4f4;   
+}
+
+/*Global*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;  
+}
+
+ul{
+	margin:0; 
+	padding:0; 
+}
+
+.button_1{
+	height:38px;
+	background:#e8491d;
+	border:0;
+	padding-left:20px;  
+	padding-right:20px;
+	color:#ffffff; 
+	}
+
+
+.dark{
+	padding:15px;
+	background:#35424a;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:10px;  
+}
+
+
+	/*header*/
+header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top:5px;
+	padding-bottom:auto;
+	min-height:30px;
+	border-bottom:#e8491d 3px solid;  
+}
+
+header .highlight{
+	color:#e8491d;
+	font-weight:bold;  
+
+}
+
+header .login {
+	//width:100%;
+	//padding:12px 20px;
+	padding-top:5px;  
+	padding-right:5px; 
+	padding-bottom:5px; 
+	padding-left:5px; 
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;  
+	float:right 
+}
+
+
+
+header.login a:hover{
+	background-color:#45a049; 
+}
+
+div .login a{
+	border-radius:5px;
+	padding-top:5px;  
+	padding-right:5px; 
+	padding-bottom:5px; 
+	padding-left:0px;  
+	min-height:15px;
+}
+
+header #branding{
+	float:left; 
+	display:inline;
+}
+
+header #branding h2{
+	margin:0; 
+}
+
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: lowercase;
+	font-size:12px;   
+}
+
+header li {
+	float:right;
+    display:inline;
+    padding:0 20px 0 20px;  
+   
+}
+
+header .positioning{
+	 
+	padding-top:5px;  
+	padding-right:5px; 
+	padding-bottom:5px; 
+	padding-left:5px;  
+}
+
+header input[type=text] {
+    width: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    font-size: 10px;
+    background-color: white;
+    background-image: url('/img/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-right:20px; 
+    padding-left:5px;
+    padding-bottom:5px; 
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    display:block; 
+    float:right;
+}
+
+header input[type=text]:focus {
+    width: 10%;
+}
+
+#nav{
+	background:#35424a;
+	color:#ffffff;
+	padding-top:5px;
+	padding-bottom:auto;
+	min-height:30px;
+	border-bottom:#e8491d 3px solid;  
+}
+
+
+#nav a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:15px;  
+	float:left;
+	
+}
+
+#nav li a{
+	 
+	padding-top:5px;  
+	padding-right:100px; 
+	padding-bottom:5px; 
+	padding-left:50px;  
+}
+
+#nav li {
+    display:inline;
+	padding-top:5px; 
+	padding-right:5px; 
+	padding-bottom:5px; 
+	
+}
+
+#nav a:hover{
+	background-color:yellow;
+	font-weight:bold;  
+}
+
+
+/*Showcase*/
+#showcase{
+	min-height:300px;
+	//background:url('../images/post.jpg') no-repeat ; 
+	background-position: center center; 
+	text-align:center;
+	color:#ffffff; 
+	background-color:#cccccc; 
+}
+
+
+#showcase h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;   
+}
+
+#showcse p{
+	font-size:30px; 
+}
+
+/*Boxes*/
+#boxes{
+	margin-top:20px; 
+}
+
+#boxes .box{
+	float:left;
+	width:30%;
+	padding:10px; 
+	text-align:center; 
+}
+
+#newsletter{
+	padding:10px;
+	color:#ffffff;
+	background:#35424a; 
+}
+
+#newsletter h1{
+	float:left;
+}
+
+#newsletter form{
+	float:right;
+	margin-top:15px; 
+}
+
+#newsletter input[type="email"]{
+	padding:4px;
+	height:25px; 
+	width:250px; 
+}
+
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align:center;  
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+width:90%;	
+
+}
+
+/*Sidebar*/
+aside#sidebar{
+	float:right;
+	width:30%;
+	margin-top:10px;  
+}
+
+
+/*Main-col*/
+article#main-col{
+	float:left;
+	width:65%; 
+}
+
+/*Services*/
+ul#services li{
+  list-style: none;
+  padding:20px;	
+  border:#cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;  
+}
+
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align:center;  
+}
+
+/*Media Queries*/
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+		#newsletter h1
+		#newsletter form,
+		#boxes .box
+		article #main-col,
+		aside#sidebar{
+		float:none;
+		text-align:center;
+		width:100%  
+	}
+
+	header{
+		padding-bottom:20px; 
+	}
+
+    #showcase h1{
+    	margin-top:40px; 
+    }
+
+    #newsletter button, quote button{
+    	display:block;
+    	width:100%; 
+    }
+
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+    	width:100%;
+    	margin-bottom:5px;  
+    }
+     
+}
+	
